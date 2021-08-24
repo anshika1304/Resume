@@ -1,0 +1,90 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin:20px;
+    border: 5px inset black;
+    padding:20px;
+}
+h1{
+    text-align:center; 
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px aquamarine;
+}
+/*
+h1:hover{
+    color:blue;
+}
+*/
+img{
+    right:50px;
+    width:100px;
+    height:150px;
+    position: absolute;
+    top: 33% ;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.intro{
+    background-color: aquamarine;
+    padding:20px;
+}
+.academic, .academic th, .academic td{
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.academic tr:hover {
+    background-color: lightgrey;
+}
+.info td{
+    padding: 0 30px;
+}
+a:visited{
+    color: darkblue;
+}
+a:hover{
+    color: darkgreen;
+}
+a:active{
+    color: darkred;
+}
+/*
+.highlight:hover{
+    background-color:aquamarine;
+}
+*/
+.basic{
+    font-size:x-large;
+}
+.n{
+    list-style-type: none;
+    overflow: hidden;
+    background-color:black;
+  
+}
+.n li{
+    display: inline;
+    float: right;
+    color:white;
+}
+.n li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+.n li a:hover{
+    background-color: gray;
+    font-size: 20px;
+    color: red;
+    text-shadow: 2px 2px 5px orange;
+}
+.n li a:visited{
+    color: white;
+}
+.contact{
+    font-size:x-large;
+}
+.c{
+    list-style-type: disc;
+}
