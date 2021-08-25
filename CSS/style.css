@@ -1,90 +1,80 @@
-body{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    margin:20px;
-    border: 5px inset black;
-    padding:20px;
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin: 20px;
+  border: 5px inset black;
+  padding: 20px;
 }
-h1{
-    text-align:center; 
-    text-decoration: underline;
-    text-shadow: 2px 2px 5px aquamarine;
+img {
+  right: 60px;
+  width: 130px;
+  height: 150px;
+  position: absolute;
+  top: 22%;
+  border-radius: 50%;
+  border: 2px solid black;
 }
-/*
-h1:hover{
-    color:blue;
+.intro {
+  background-color: aquamarine;
+  padding: 20px;
 }
-*/
-img{
-    right:50px;
-    width:100px;
-    height:150px;
-    position: absolute;
-    top: 33% ;
-    border-radius: 50%;
-    border: 2px solid black;
-}
-.intro{
-    background-color: aquamarine;
-    padding:20px;
-}
-.academic, .academic th, .academic td{
-    border: 3px solid black;
-    border-collapse: collapse;
-    text-align: center;
+.academic,
+.academic th,
+.academic td {
+  border: 3px solid black;
+  border-collapse: collapse;
+  text-align: center;
 }
 .academic tr:hover {
-    background-color: lightgrey;
+  background-color: lightgrey;
 }
-.info td{
-    padding: 0 30px;
+.info td {
+  padding: 0 30px;
 }
-a:visited{
-    color: darkblue;
+a:visited {
+  color: darkblue;
 }
-a:hover{
-    color: darkgreen;
+a:hover {
+  color: darkgreen;
 }
-a:active{
-    color: darkred;
+a:active {
+  color: darkred;
 }
 /*
 .highlight:hover{
     background-color:aquamarine;
 }
 */
-.basic{
-    font-size:x-large;
+.basic {
+  font-size: x-large;
 }
-.n{
-    list-style-type: none;
-    overflow: hidden;
-    background-color:black;
-  
+.n {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: black;
 }
-.n li{
-    display: inline;
-    float: right;
-    color:white;
+.n li {
+  display: inline;
+  float: right;
+  color: white;
 }
-.n li a{
-    display: block;
-    text-decoration: none;
-    padding: 20px;
-    color: white;
+.n li a {
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  color: white;
 }
-.n li a:hover{
-    background-color: gray;
-    font-size: 20px;
-    color: red;
-    text-shadow: 2px 2px 5px orange;
+.n li a:hover {
+  background-color: gray;
+  font-size: 20px;
+  text-shadow: 2px 2px 5px orange;
 }
-.n li a:visited{
-    color: white;
+.n li a:visited {
+  color: white;
 }
-.contact{
-    font-size:x-large;
+.contact {
+  font-size: x-large;
 }
-.c{
-    list-style-type: disc;
+.c {
+  list-style-type: disc;
 }
